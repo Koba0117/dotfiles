@@ -5,6 +5,7 @@ local config = wezterm.config_builder()
 -- font
 config.font_size = 16
 config.font = wezterm.font("FiraCode Nerd Font")
+-- config.font = wezterm.font_with_fallback({ "FiraCode Nerd Font", "Noto Sans CJK JP" })
 
 config.window_padding = {
 	left = 0,
