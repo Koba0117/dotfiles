@@ -233,9 +233,9 @@ titlebar_padding 1
 titlebar_border_thickness 0
 
 # media control
-bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
-bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
-bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioRaiseVolume exec ~/.config/sway/sway.sh 0 0
+bindsym XF86AudioLowerVolume exec ~/.config/sway/sway.sh 0 1
+bindsym XF86AudioMute exec ~/.config/sway/sway.sh 0 2
 bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioPause exec playerctl play-pause
@@ -243,8 +243,8 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # brightness control
-bindsym XF86MonBrightnessUp exec ddcutil setvcp -d 1 10 + 5 && ddcutil setvcp -d 2 10 + 5
-bindsym XF86MonBrightnessDown exec ddcutil setvcp -d 1 10 - 5 && ddcutil setvcp -d 2 10 - 5
+bindsym XF86MonBrightnessUp exec ~/.config/sway/sway.sh 1 0
+bindsym XF86MonBrightnessDown exec ~/.config/sway/sway.sh 1 1
 
 # suspend
 bindsym $mod+Shift+p exec systemctl suspend
