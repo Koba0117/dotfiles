@@ -1,11 +1,4 @@
 return {
-  {
-    "LazyVim/LazyVim",
-    opts = {
-      colorscheme = "catppuccin",
-    },
-  },
-
   -- Use <tab> for completion and snippets (supertab)
   {
     "hrsh7th/nvim-cmp",

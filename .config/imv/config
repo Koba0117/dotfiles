@@ -2,10 +2,10 @@
 <Delete> = exec rm "$imv_current_file"; close
 <u> = close all; open .
 
-<h> = next
+<h> = prev
 <j> = zoom -4
 <k> = zoom 4
-<l> = prev
+<l> = next
 <Left> = pan 64 0
 <Down> = pan 0 -64
 <Up> = pan 0 64
