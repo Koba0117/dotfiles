@@ -1,3 +1,17 @@
 [binds]
 <Delete> = exec rm "$imv_current_file"; close
 <u> = close all; open .
+
+<h> = next
+<j> = zoom -4
+<k> = zoom 4
+<l> = prev
+<Left> = pan 64 0
+<Down> = pan 0 -64
+<Up> = pan 0 64
+<Right> = pan -64 0
+
+[options]
+background=1e1e2e
+overlay_text_color=cdd6f4
+overlay_background_color=11111b
