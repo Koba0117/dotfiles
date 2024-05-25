@@ -5,7 +5,7 @@
 # Read `man 5 sway` for a complete reference.
 
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
-exec /usr/bin/waybar
+# exec /usr/bin/waybar
 exec /usr/bin/mako
 # exec --no-startup-id fcitx5 -d
 exec systemctl --user import-environment WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
