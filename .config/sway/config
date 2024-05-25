@@ -26,7 +26,7 @@ set $term wezterm
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu wofi -S drun -G
+set $menu tofi-drun | xargs swaymsg exec --
 
 ### Output configuration
 #
@@ -214,15 +214,15 @@ bindsym $mod+r mode "resize"
 # Read `man 5 sway-bar` for more information about this section.
 # bar {
 #     position top
-# 
+#
 #     # When the status_command prints a new line to stdout, swaybar updates.
 #     # The default just shows the current date and time.
 #     status_command while date +'%Y-%m-%d %X'; do sleep 1; done
-# 
+#
 #     colors {
-#         statusline #ffffff
-#         background #323232
-#         inactive_workspace #32323200 #32323200 #5c5c5c
+#         statusline #cdd6f4
+#         background #1e1e2e
+#         inactive_workspace #1e1e2e #1e1e2e #cdd6f4
 #     }
 # }
 
@@ -250,7 +250,7 @@ bindsym XF86MonBrightnessDown exec ~/.config/sway/sway.sh 1 1
 bindsym $mod+Shift+p exec systemctl suspend
 
 # cliphist
-bindsym $mod+v exec cliphist list | wofi -S dmenu | cliphist decode | wl-copy
+bindsym $mod+v exec cliphist list | tofi | cliphist decode | wl-copy
 
 # screenshot
 bindsym $mod+Shift+s exec grim -g "$(slurp -d)" - | wl-copy -t image/png
