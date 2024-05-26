@@ -20,6 +20,11 @@ return {
 			vim.keymap.set("n", "<leader>fb", builtin.buffers, {})
 			vim.keymap.set("n", "<leader>fh", builtin.help_tags, {})
 
+			vim.keymap.set("n", "gd", builtin.lsp_definitions, {})
+			vim.keymap.set("n", "gr", builtin.lsp_references, {})
+			vim.keymap.set("n", "gi", builtin.lsp_implementations, {})
+			vim.keymap.set("n", "gy", builtin.lsp_type_definitions, {})
+
 			require("telescope").load_extension("ui-select")
 		end,
 	},
