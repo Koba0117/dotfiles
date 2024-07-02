@@ -10,6 +10,11 @@ return {
 				integrations = {
 					mason = true,
 				},
+				custom_highlights = function(colors)
+					return {
+						FloatBorder = { fg = colors.blue, bg = colors.base },
+					}
+				end,
 			})
 			vim.cmd.colorscheme("catppuccin-mocha")
 		end,
