@@ -3,7 +3,7 @@ if status is-interactive
   alias l='ls -lah'
   alias v='nvim'
   alias g='gitui'
-  alias sus='systemctl suspend'
+  alias sus='swaylock --daemonize && systemctl suspend'
 
   set -x EDITOR nvim
   set -x VISUAL $EDITOR

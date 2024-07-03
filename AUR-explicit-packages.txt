@@ -1,0 +1,5 @@
+catppuccin-gtk-theme-mocha
+paru
+python311
+snap-pac-grub
+tofi
