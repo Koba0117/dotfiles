@@ -14,12 +14,13 @@ firefox
 firewalld
 fish
 foot
+fzf
 git
 github-cli
+gitui
 grim
 grub
 imv
-lazygit
 linux
 linux-firmware
 lvm2
@@ -47,6 +48,8 @@ rustup
 slurp
 stow
 sway
+swaybg
+swaylock
 ttf-dejavu-nerd
 unzip
 virt-manager
