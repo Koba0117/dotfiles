@@ -17,3 +17,5 @@ bind-key h quit
 bind-key j down
 bind-key k up
 bind-key l open
+
+macro p set browser "mpv --player-operation-mode=pseudo-gui -- %u &"; one; set browser firefox

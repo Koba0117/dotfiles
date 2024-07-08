@@ -1,4 +1,19 @@
-https://archlinux.org/feeds/news/
-https://www.phoronix.com/rss.php
-https://aws.amazon.com/blogs/aws/feed/
-https://aws.amazon.com/jp/blogs/news/feed
+https://archlinux.org/feeds/news/ "news"
+https://www.phoronix.com/rss.php "news"
+https://aws.amazon.com/blogs/aws/feed/ "news"
+https://aws.amazon.com/jp/blogs/news/feed "news"
+
+https://feeds.buzzsprout.com/1501960.rss "podcast"
+
+https://www.youtube.com/feeds/videos.xml?channel_id=UC9-y-6csu5WGm29I7JiwpnA "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCGKEMK3s-ZPbjVOIuAV8clQ "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCWglcpI-xTAXb_QYecQ2O4g "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCsBjURrPoezykLs9EqgamOA "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCct9aR7HC79Cv2g-9oDOTLw "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCUyeluBRhGPCW4rPe_UvBZQ "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC7kIy8fZavEni8Gzl8NLjOQ "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCbiGcwDWZjz05njNPrJU7jA "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCI8iQa1hv7oV_Z8D35vVuSg "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCJXa3_WNNmIpewOtCHf3B0g "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC1LpsuAUaKoMzzJSEt5WImw "youtube"
+https://www.youtube.com/feeds/videos.xml?channel_id=UC6biysICWOJ-C3P4Tyeggzg "youtube"
