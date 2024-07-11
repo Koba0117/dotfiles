@@ -50,9 +50,11 @@ stow
 sway
 swaybg
 swaylock
+tmux
 ttf-dejavu-nerd
 unzip
 virt-manager
 xdg-desktop-portal-gtk
 xdg-desktop-portal-wlr
+yt-dlp
 zathura-pdf-mupdf

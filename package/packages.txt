@@ -112,8 +112,8 @@ gawk 5.3.0-1
 gc 8.2.6-1
 gcc 14.1.1+r58+gfc9fb69ad62-1
 gcc-libs 14.1.1+r58+gfc9fb69ad62-1
-gdb 14.2-2
-gdb-common 14.2-2
+gdb 15.1-1
+gdb-common 15.1-1
 gdbm 1.23-2
 gdk-pixbuf2 2.42.12-1
 geoclue 2.7.1-3
@@ -196,7 +196,7 @@ jansson 2.14-4
 jasper 4.2.4-1
 jbig2dec 0.20-1
 jbigkit 2.1-8
-json-c 0.17-1
+json-c 0.17-2
 json-glib 1.8.0-2
 jsoncpp 1.9.5-2
 jxrlib 0.2.4-2
@@ -305,8 +305,8 @@ libnsl 2.0.1-1
 libogg 1.3.5-2
 libomxil-bellagio 0.9.3-4
 libopenmpt 0.7.8-1
-libosinfo 1.11.0-2
-libp11-kit 0.25.3-1
+libosinfo 1.11.0-3
+libp11-kit 0.25.5-1
 libpcap 1.10.4-1
 libpciaccess 0.18.1-2
 libpgm 5.3.128-3
@@ -354,6 +354,7 @@ libunwind 1.8.1-3
 liburcu 0.14.0-1
 liburing 2.6-2
 libusb 1.0.27-1
+libutempter 1.2.1-4
 libutf8proc 2.9.0-1
 libuv 1.48.0-2
 libva 2.21.0-1
@@ -385,13 +386,13 @@ libxi 1.8.1-2
 libxinerama 1.1.5-2
 libxkbcommon 1.7.0-2
 libxkbcommon-x11 1.7.0-2
-libxml2 2.13.1-1
+libxml2 2.13.2-1
 libxmu 1.2.1-1
 libxpresent 1.0.1-2
 libxrandr 1.5.4-1
 libxrender 0.9.11-2
 libxshmfence 1.3.2-2
-libxslt 1.1.41-1
+libxslt 1.1.42-1
 libxss 1.2.4-2
 libxt 1.3.0-2
 libxtst 1.2.4-2
@@ -401,7 +402,7 @@ libyaml 0.2.5-2
 libyuv r2426+464c51a0-1
 licenses 20240206-1
 lilv 0.24.24-2
-linux 6.9.7.arch1-1
+linux 6.9.8.arch1-1
 linux-api-headers 6.8-1
 linux-firmware 20240610.9c10a208-1
 linux-firmware-whence 20240610.9c10a208-1
@@ -444,7 +445,7 @@ networkmanager 1.48.4-1
 newsboat 2.36-1
 nftables 1:1.0.9-3
 node-gyp 10.1.0-3
-nodejs 22.4.0-1
+nodejs 22.4.1-1
 nodejs-nopt 7.2.0-1
 noto-fonts 1:24.7.1-1
 noto-fonts-cjk 20230817-2
@@ -473,8 +474,8 @@ openssl 3.3.1-1
 openucx 1.17.0-1
 opus 1.5.2-1
 orc 0.4.38-1
-osinfo-db 20240523-1
-p11-kit 0.25.3-1
+osinfo-db 20240701-1
+p11-kit 0.25.5-1
 pacman 6.1.0-3
 pacman-mirrorlist 20231001-1
 pam 1.6.1-2
@@ -518,6 +519,7 @@ python-attrs 23.2.0-3
 python-autocommand 2.2.2-6
 python-cairo 1.26.1-1
 python-capng 0.8.5-2
+python-certifi 2024.07.04-1
 python-cffi 1.16.0-2
 python-charset-normalizer 3.3.2-2
 python-contourpy 1.2.1-5
@@ -726,6 +728,7 @@ tesseract-data-eng 2:4.1.0-4
 tesseract-data-osd 2:4.1.0-4
 texinfo 7.1-2
 thin-provisioning-tools 1.0.12-1
+tmux 3.4-8
 tofi 0.9.1-2
 tpm2-tss 4.0.1-1
 tracker3 3.7.3-2
@@ -792,6 +795,7 @@ xvidcore 1.3.7-2
 xxhash 0.8.2-1
 xz 5.6.2-1
 yajl 2.1.0-6
+yt-dlp 2024.07.09-1
 zathura 0.5.6-2
 zathura-pdf-mupdf 0.4.3-4
 zeromq 4.3.5-2
