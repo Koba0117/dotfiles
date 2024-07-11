@@ -238,6 +238,7 @@ bar {
         focused_workspace  #cdd6f4 #1e1e2e #cdd6f4
         active_workspace   #1e1e2e #1e1e2e #cdd6f4
         inactive_workspace #1e1e2e #1e1e2e #cdd6f4
+        urgent_workspace   #f38ba8 #f38ba8 #1e1e2e
     }
     font "DejaVuSansMNerdFont 12"
 }
@@ -256,7 +257,7 @@ client.unfocused         #181825 #1e1e2e #cdd6f4 #181825 #181825
 bindsym XF86AudioRaiseVolume exec ~/.config/sway/sway.sh 0 0
 bindsym XF86AudioLowerVolume exec ~/.config/sway/sway.sh 0 1
 bindsym XF86AudioMute        exec ~/.config/sway/sway.sh 0 2
-bindsym XF86AudioMicMute     exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86AudioMicMute     exec ~/.config/sway/sway.sh 0 3
 bindsym XF86AudioPlay        exec playerctl play-pause
 bindsym XF86AudioPause       exec playerctl play-pause
 bindsym XF86AudioNext        exec playerctl next
