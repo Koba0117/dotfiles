@@ -13,6 +13,7 @@ return {
 	{
 		"hrsh7th/nvim-cmp",
 		config = function()
+			local luasnip = require("luasnip")
 			local cmp = require("cmp")
 			require("luasnip.loaders.from_vscode").lazy_load()
 
@@ -46,6 +47,9 @@ return {
 					["<S-Tab>"] = cmp.mapping(cmp.mapping.select_prev_item(), { "i", "s" }),
 					["<CR>"] = cmp.mapping.confirm({ select = true }),
 				}),
+				experimental = {
+					ghost_text = true,
+				},
 				sources = cmp.config.sources({
 					{ name = "nvim_lsp" },
 					{ name = "luasnip" },
