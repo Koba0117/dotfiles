@@ -276,4 +276,8 @@ bindsym $mod+v exec cliphist list | tofi | cliphist decode | wl-copy
 # screenshot
 bindsym $mod+Shift+s exec grim -g "$(slurp -d)" - | wl-copy -t image/png
 
+# monitor input
+bindsym $mod+m exec ddcutil setvcp 60 0x11
+bindsym $mod+Shift+m exec ddcutil setvcp 60 0x0f
+
 include /etc/sway/config.d/*
